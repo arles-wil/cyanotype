@@ -1,3 +1,259 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import url(http://fonts.googleapis.com/css?family=Michroma);
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+
+
+
+::-moz-selection {
+    background: #009ccc;
+    color: #009ccc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #009ccc;
+    color: #ff2003;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+ hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.centered {
+  text-align: center
+}
+
+.mt {
+  margin-top: 80px;
+}
+
+.mb {
+  margin-bottom: 80px;
+}
+
+/* ==========================================================================
+   General styles
+   ========================================================================== */
+
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    background-repeat: no-repeat;
+    background-color: #3B2F63;
+background-image: -webkit-radial-gradient(70% top, rgba(84,90,182,0.6) 0%,rgba(84,90,182,0) 75%),-webkit-radial-gradient(right top, #794aa2 0%,rgba(121,74,162,0) 57%);
+background-image: radial-gradient( at 70% top, rgba(84,90,182,0.6) 0%,rgba(84,90,182,0) 75%),radial-gradient( at right top, #794aa2 0%,rgba(121,74,162,0) 57%);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+    color: #000000;
+}
+
+
+.navbar-brand {
+  font-size: 25px;
+  font-family:'Michroma';
+  font-weight: bold;
+  padding-top: 15px;  
+  padding-bottom: 0px;
+}
+
+.navbar-default .navbar-brand {
+  color: #3B2F63;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #000001;
+  font-family: 'Raleway';
+  font-size: .85em;
+  text-transform: none;
+  text-decoration: none;
+  letter-spacing: 1px;
+  
+  font-style: normal;
+  line-height: 1,5em;
+}
+
+.navbar-default {
+  
+  color: #000000;
+  border-bottom: 1px solid #000000;
+  background-color: #fafafa;
+  background-image: -webkit-radial-gradient(50% top, rgba(238,236,255,0.6) 0%,rgba(238,236,255,0) 75%),-webkit-radial-gradient(right top, #eeecff 0%,rgba(73,65,135,0) 57%);
+  background-image: radial-gradient( at 50% top, rgba(238,236,255,0.6) 0%,rgba(238,236,255,0) 75%),radial-gradient( at right top, #eeecff 0%,rgba(73,65,135,0) 57%);
+
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:hover {
+  color: #3B2F63;
+  
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #3B2F63;
+  border-bottom: 2px solid #3B2F63;
+  
+
+}
+
+
+
+/* ==========================================================================
+   Wrap Sections
+   ========================================================================== */
+
+#headerwrap {
+  background: url() no-repeat center top;
+  margin-top: -50px;
+  padding-top: 200px;
+  text-align:center;
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 650px;
+  width: 100%;
+  
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#headerwrap h1 {
+  color:#ffffff;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  letter-spacing: 4px;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+#headerwrap h2 {
+  padding-top: 10px;
+  padding-bottom: 10px;	
+  font-weight: 400;
+  color: #ffffff;
+}
+#headerwrap h4 {
+  font-weight: 400;
+  color: #ffffff;
+}
+
+#social {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #f2f2f2;
+}
+
+#social i {
+  font-size: 40px;
+  color: #0dcfff
+}
+
+#social i:hover {
+  color: #0dcfff
+}
+
+#footerwrap {
+  padding-top: 70px;
+  padding-bottom: 50px;
+  background-color: #2f2f2f;
+}
+
+#footerwrap p {
+  color: #f2f2f2;
+  margin-left: 10px;
+}
+
+#workwrap { 
+  background: url() no-repeat center top;
+  margin-top: -70px;
+  padding-top: 250px;
+  text-align:center;
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 650px;
+  width: 100%;
+  
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#workwrap h1 {
+  color:#ffffff;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  letter-spacing: 4px;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+#workwrap h4 {
+  font-weight: 400;
+  color: #ffffff
+}
+
+#aboutwrap {  
+  background: url() no-repeat center top;
+  margin-top: -70px;
+  padding-top: 250px;
+  text-align:center;
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 550px;
+  width: 100%;
+  
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+a:hover, a:focus {
+color: #ffffff;
+text-decoration: underline;
+}
+
+/* Gallery */
+.gallery {
+  margin-top: 30px;
+}
+
+.gallery img:hover {
+  opacity: 0.4;
+}
