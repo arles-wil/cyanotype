@@ -5,6 +5,7 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+@import url(http://fonts.googleapis.com/css?family=Special+Elite&effect=brick-sign);
 @import url(http://fonts.googleapis.com/css?family=Michroma);
 @import url(http://fonts.googleapis.com/css?family=Raleway);
 
@@ -58,8 +59,9 @@ body {
     font-size: 18px;
     background-repeat: no-repeat;
     background-color: #3B2F63;
-background-image: -webkit-radial-gradient(70% top, rgba(84,90,182,0.6) 0%,rgba(84,90,182,0) 75%),-webkit-radial-gradient(right top, #794aa2 0%,rgba(121,74,162,0) 57%);
-background-image: radial-gradient( at 70% top, rgba(84,90,182,0.6) 0%,rgba(84,90,182,0) 75%),radial-gradient( at right top, #794aa2 0%,rgba(121,74,162,0) 57%);
+background-image: -webkit-radial-gradient(50% top, rgba(84,90,182,0.6) 0%,rgba(84,90,182,0) 75%),-webkit-radial-gradient(right top, #794aa2 0%,rgba(121,74,162,0) 57%);
+background-image: radial-gradient( at 50% top, rgba(84,90,182,0.6) 0%,rgba(84,90,182,0) 75%),radial-gradient( at right top, #794aa2 0%,rgba(121,74,162,0) 57%);
+ padding-top: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -69,8 +71,8 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .navbar-brand {
-  font-size: 25px;
-  font-family:'Michroma';
+  font-size: 35px;
+  font-family:'Special Elite', serif;
   font-weight: bold;
   padding-top: 15px;  
   padding-bottom: 0px;
@@ -122,12 +124,12 @@ h1, h2, h3, h4, h5, h6 {
 
 #headerwrap {
   background: url() no-repeat center top;
-  margin-top: -50px;
-  padding-top: 200px;
+  margin-top: 10px;
+  padding-top: 20px;
   text-align:center;
   background-attachment: relative;
   background-position: center center;
-  min-height: 650px;
+  min-height: 50px;
   width: 100%;
   
     -webkit-background-size: 100%;
@@ -151,8 +153,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #headerwrap h2 {
-  padding-top: 10px;
-  padding-bottom: 10px;	
+  padding-top: 30px;
+  padding-bottom: 0px;	
   font-weight: 400;
   color: #ffffff;
 }
@@ -208,7 +210,7 @@ h1, h2, h3, h4, h5, h6 {
     background-size: cover;
 }
 
-#workwrap h1 {
+#workwrap h2 {
   color:#ffffff;
   padding-top: 10px;
   padding-bottom: 20px;
@@ -222,14 +224,14 @@ h1, h2, h3, h4, h5, h6 {
   color: #ffffff
 }
 
-#aboutwrap {  
+#aboutwrap {
   background: url() no-repeat center top;
-  margin-top: -70px;
-  padding-top: 250px;
+  margin-top: 40px;
+  padding-top: 20px;
   text-align:center;
   background-attachment: relative;
   background-position: center center;
-  min-height: 550px;
+  min-height: 50px;
   width: 100%;
   
     -webkit-background-size: 100%;
@@ -241,6 +243,28 @@ h1, h2, h3, h4, h5, h6 {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+#aboutwrap h1 {
+  color:#ffffff;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  letter-spacing: 4px;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+#aboutwrap h2 {
+  padding-top: 30px;
+  padding-bottom: 0px;	
+  font-weight: 400;
+  color: #ffffff;
+}
+
+#aboutwrap h4 {
+  padding-top: 30px;
+  font-weight: 400;
+  color: #ffffff;
 }
 
 
@@ -257,3 +281,4 @@ text-decoration: underline;
 .gallery img:hover {
   opacity: 0.4;
 }
+

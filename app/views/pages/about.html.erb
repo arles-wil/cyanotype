@@ -1,12 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  <title>cyanotype</title>
+	  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+	  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+	  <%= csrf_meta_tags %>
 
-<div id="headerwrap">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-6 col-lg-offset-3">
+	  <!-- Fixed navbar -->
+	    <%= render 'layouts/header' %>
 
-	<h4>The PikTome is a place to share your photos with <em> just </em> the people you want to see them.</h4>
+	</head>
 
+		<body>
+			
+			<div id="aboutwrap">
+				
+				<div class="col-lg-8 col-lg-offset-2">
+					
+					<h2>
+						welcome to <span style="font-family: 'Special Elite', serif;">cyanotype</span>
+					</h2>
+
+					<h4><span style="font-family: 'Special Elite', serif;">cyanotype</span> is a place to share your photos with <em> just </em> the people you want to see them.</h4>
+
+				</div>		
+				
 			</div>
-		</div>
-	</div>
-</div>
+		</body>
+</html>		

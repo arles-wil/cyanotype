@@ -1,20 +1,41 @@
 
 <div id="headerwrap">
-	    <div class="container">
-			<div class="row">
-				<div class="col-lg-6 col-lg-offset-3">
-					<h4 style="margin-top:20px;">
-						welcome to cyanotype
-					</h4>
+<!DOCTYPE html>
+<html>
+	<head>
+	  <title>cyanotype</title>
+	  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+	  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+	  <%= csrf_meta_tags %>
 
+	  <!-- Fixed navbar -->
+	    <%= render 'layouts/header' %>
+
+	</head>	    
+
+		<body>
+			
+				<div id="headerwrap">
 					<h2>
-					YOU CAN SIGN <sup>UP</sup> <%= link_to "HERE", "#" %> 
+						welcome to <span style="font-family: 'Special Elite', serif;">cyanotype</span>
 					</h2>
 				</div>
+				<div id="headerwrap">	
+					<h4>you can sign up</h4>
+						
+						<div class="col-lg-4 col-lg-offset-4">
+							<%= link_to "HERE", "#", class: "btn btn-primary btn-lg btn-block" %>
+						 
+						 	<h4>or</h4> 
+
+						 	<%= link_to "LOG IN", "#", class: "btn btn-primary btn-lg btn-block" %>
+						
+						</div>
+						
+				</div>
 				
-			</div><! --/row -->
-	    </div> <!-- /container -->
-</div><! --/headerwrap -->
+			</div>
+		</body>	
+</html>
 
 	
-
