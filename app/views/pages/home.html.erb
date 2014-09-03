@@ -20,18 +20,29 @@
 						welcome to <span style="font-family: 'Special Elite', serif;">cyanotype</span>
 					</h2>
 				</div>
+
 				<div id="headerwrap">	
-					<h4>you can sign up</h4>
+					
+					<% if user_signed_in? %>
+
+						<h4>Get Started</h4>
+
+					<% else %>
+
+						<h4>you can sign up</h4>
 						
 						<div class="col-lg-4 col-lg-offset-4">
-							<%= link_to "HERE", "#", class: "btn btn-primary btn-lg btn-block" %>
+							
+							<%= link_to "HERE", new_user_registration_path, class: "btn btn-primary btn-lg btn-block" %>
 						 
 						 	<h4>or</h4> 
 
-						 	<%= link_to "LOG IN", "#", class: "btn btn-primary btn-lg btn-block" %>
+						 	<%= link_to "LOG IN", new_user_session_path, class: "btn btn-primary btn-lg btn-block" %>
 						
 						</div>
-						
+					
+					<% end %>	
+
 				</div>
 				
 			</div>
