@@ -7,7 +7,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 @import url(http://fonts.googleapis.com/css?family=Special+Elite&effect=brick-sign);
 @import url(http://fonts.googleapis.com/css?family=Michroma);
-@import url(http://fonts.googleapis.com/css?family=Raleway);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400);
 
 
 
@@ -54,19 +54,21 @@
 
 
 body {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    background-repeat: no-repeat;
-    background-color: #3B2F63;
-background-image: -webkit-radial-gradient(50% top, rgba(84,90,182,0.6) 0%,rgba(84,90,182,0) 75%),-webkit-radial-gradient(right top, #794aa2 0%,rgba(121,74,162,0) 57%);
-background-image: radial-gradient( at 50% top, rgba(84,90,182,0.6) 0%,rgba(84,90,182,0) 75%),radial-gradient( at right top, #794aa2 0%,rgba(121,74,162,0) 57%);
- padding-top: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  background-color: #3B2F63;
+  background-image: -webkit-radial-gradient(50% top, rgba(84,90,182,0.6) 0%,rgba(84,90,182,0) 75%),-webkit-radial-gradient(center top, #794aa2 0%,rgba(121,74,162,0) 57%);
+  background-image: radial-gradient( at 50% top, rgba(84,90,182,0.6) 0%,rgba(84,90,182,0) 75%),radial-gradient( at center top, #794aa2 0%,rgba(121,74,162,0) 57%);
+  padding-top: 30px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 600;
-    color: #000000;
+  font-weight: 400;
+    color: #ffffff;
+    margin-top: 10px;
 }
 
 
@@ -88,7 +90,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: .75em;
   text-transform: none;
   text-decoration: none;
-  letter-spacing: 1px;
+  letter-spacing: 0px;
   
   font-weight: bold;
   line-height: 1,5em;
@@ -265,8 +267,8 @@ h1, h2, h3, h4, h5, h6 {
 
 
 a:hover, a:focus {
-color: #ffffff;
-text-decoration: underline;
+  color: #ffffff;
+  text-decoration: underline;
 }
 
 /* Gallery */
@@ -290,3 +292,81 @@ text-decoration: underline;
   font-size: 18px;
   background-color: #ffffff;
   }
+
+.panel-title {
+  margin-top: 0;
+  margin-bottom: -05;
+  margin-left: 10px;
+}
+
+.panel-heading {
+  padding: 5px;
+  margin-top: 30px;
+  border: 0px solid white;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.9),0 1px 0 rgba(255,255,255,0.9) inset;
+  background-color: #161540;
+  background-image: -webkit-radial-gradient(50% bottom, rgba(84,90,182,0.6) 0%,rgba(84,90,182,0) 75%),-webkit-radial-gradient(center bottom, #794aa2 0%,rgba(121,74,162,0) 57%);
+  background-image: radial-gradient( at 50% bottom, rgba(84,90,182,0.6) 0%,rgba(84,90,182,0) 75%),radial-gradient( at center bottom, #794aa2 0%,rgba(121,74,162,0) 57%);
+  }
+
+.panel {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: #ffffff;
+  border: 0px solid white;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.9),0 1px 0 rgba(255,255,255,0.9) inset;
+  }
+  
+.panel-body {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: #161540;
+  background-image: -webkit-radial-gradient(50% top, rgba(84,90,182,0.6) 0%,rgba(84,90,182,0) 75%),-webkit-radial-gradient(center top, #794aa2 0%,rgba(121,74,162,0) 57%);
+  background-image: radial-gradient( at 50% top, rgba(84,90,182,0.6) 0%,rgba(84,90,182,0) 75%),radial-gradient( at center top, #794aa2 0%,rgba(121,74,162,0) 57%);
+  border: 0px solid white;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.9),0 1px 0 rgba(255,255,255,0.9) inset;
+}
+
+.panel-footer {
+  color: #3B2F63;
+  font-family: 'Raleway';
+  font-size: .75em;
+  text-transform: underline;
+}
+
+.panel-footer h4 {
+  color: #3B2F63;
+}
+
+a {
+  color: #3B2F63;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3B2F63;
+}  
+
+.panel h2 {
+  font-size: 16px;
+  color: #3B2F63
+} 
+
+.radio input[type="radio"], .radio-inline input[type="radio"], .checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"] {
+  position: relative;
+  margin-left: 0px;
+}
