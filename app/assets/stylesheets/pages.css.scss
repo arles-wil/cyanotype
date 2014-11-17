@@ -354,12 +354,12 @@ a:hover, a:focus {
 }
 
 a {
-  color: #3B2F63;
+  color: #ffffff;
   text-decoration: none;
 }
 
 a:hover {
-  color: #3B2F63;
+  color: #ffffff;
 }  
 
 .panel h2 {
@@ -372,3 +372,10 @@ a:hover {
   margin-left: 0px;
 }
 
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: #000000;
+}
