@@ -268,7 +268,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 a:hover, a:focus {
-  color: #ffffff;
+  color: #000000;
   text-decoration: underline;
 }
 
@@ -353,6 +353,13 @@ a:hover, a:focus {
   color: #3B2F63;
 }
 
+.panel-footer a {
+  color: #3B2F63;
+}
+
+.panel-footer a:hover {
+  color: #3B2F63;
+}
 a {
   color: #ffffff;
   text-decoration: none;
@@ -364,7 +371,7 @@ a:hover {
 
 .panel h2 {
   font-size: 16px;
-  color: #3B2F63
+  color: #ffffff;
 } 
 
 .radio input[type="radio"], .radio-inline input[type="radio"], .checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"] {
